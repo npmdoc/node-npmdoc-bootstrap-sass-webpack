@@ -72,9 +72,9 @@
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.bootstrap-sass-webpack.bootstrap_sass_styles_loader">
-            function <span class="apidocSignatureSpan">bootstrap-sass-webpack.</span>bootstrap_sass_styles_loader
-            <span class="apidocSignatureSpan">(content)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.bootstrap-sass-webpack.index_loader">
+            function <span class="apidocSignatureSpan">bootstrap-sass-webpack.</span>index_loader
+            <span class="apidocSignatureSpan">()</span>
             </a>
 
         </li>
@@ -103,13 +103,22 @@
 
     </ol></li>
 
-    <li class="apidocModuleLi"><a href="#apidoc.module.bootstrap-sass-webpack.bootstrap_sass_styles_loader">module bootstrap-sass-webpack.bootstrap_sass_styles_loader</a><ol>
+    <li class="apidocModuleLi"><a href="#apidoc.module.bootstrap-sass-webpack.index_loader">module bootstrap-sass-webpack.index_loader</a><ol>
 
         <li>
 
-            <a class="apidocElementLiA" href="#apidoc.element.bootstrap-sass-webpack.bootstrap_sass_styles_loader.bootstrap_sass_styles_loader">
-            function <span class="apidocSignatureSpan">bootstrap-sass-webpack.</span>bootstrap_sass_styles_loader
-            <span class="apidocSignatureSpan">(content)</span>
+            <a class="apidocElementLiA" href="#apidoc.element.bootstrap-sass-webpack.index_loader.index_loader">
+            function <span class="apidocSignatureSpan">bootstrap-sass-webpack.</span>index_loader
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.bootstrap-sass-webpack.index_loader.pitch">
+            function <span class="apidocSignatureSpan">bootstrap-sass-webpack.index_loader.</span>pitch
+            <span class="apidocSignatureSpan">(remainingRequest)</span>
             </a>
 
         </li>
@@ -136,26 +145,13 @@
 
 
     <h2>
-        <a href="#apidoc.element.bootstrap-sass-webpack.bootstrap_sass_styles_loader" id="apidoc.element.bootstrap-sass-webpack.bootstrap_sass_styles_loader">
-        function <span class="apidocSignatureSpan">bootstrap-sass-webpack.</span>bootstrap_sass_styles_loader
-        <span class="apidocSignatureSpan">(content)</span>
+        <a href="#apidoc.element.bootstrap-sass-webpack.index_loader" id="apidoc.element.bootstrap-sass-webpack.index_loader">
+        function <span class="apidocSignatureSpan">bootstrap-sass-webpack.</span>index_loader
+        <span class="apidocSignatureSpan">()</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">bootstrap_sass_styles_loader = function (content) {
-  this.cacheable(true);
-  var config = this.exec(content, this.resourcePath);
-  var start =
-      &#x22;@import          \&#x22;~bootstrap-sass/assets/stylesheets/bootstrap/variables\&#x22;;\n&#x22;
-    + &#x22;@icon-font-path: \&#x22;~bootstrap-sass/assets/fonts/bootstrap/\&#x22;;\n&#x22;
-    + &#x22;@import          \&#x22;./bootstrap-sass.config.scss\&#x22;;\n&#x22;;
-  source = start + partials.filter(function (partial) {
-    return config.styles[partial];
-  }).map(function (partial) {
-    return &#x22;@import \&#x22;~bootstrap-sass/assets/stylesheets/bootstrap/&#x22; + partial;
-  }).join(&#x22;\n&#x22;);
-  return source;
-}</pre></li>
+    <li>description and source-code<pre class="apidocCodePre">index_loader = function () {}</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
@@ -202,29 +198,37 @@
 </div>
 
 <div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.bootstrap-sass-webpack.bootstrap_sass_styles_loader" id="apidoc.module.bootstrap-sass-webpack.bootstrap_sass_styles_loader">module bootstrap-sass-webpack.bootstrap_sass_styles_loader</a></h1>
+<h1><a href="#apidoc.module.bootstrap-sass-webpack.index_loader" id="apidoc.module.bootstrap-sass-webpack.index_loader">module bootstrap-sass-webpack.index_loader</a></h1>
 
 
     <h2>
-        <a href="#apidoc.element.bootstrap-sass-webpack.bootstrap_sass_styles_loader.bootstrap_sass_styles_loader" id="apidoc.element.bootstrap-sass-webpack.bootstrap_sass_styles_loader.bootstrap_sass_styles_loader">
-        function <span class="apidocSignatureSpan">bootstrap-sass-webpack.</span>bootstrap_sass_styles_loader
-        <span class="apidocSignatureSpan">(content)</span>
+        <a href="#apidoc.element.bootstrap-sass-webpack.index_loader.index_loader" id="apidoc.element.bootstrap-sass-webpack.index_loader.index_loader">
+        function <span class="apidocSignatureSpan">bootstrap-sass-webpack.</span>index_loader
+        <span class="apidocSignatureSpan">()</span>
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">bootstrap_sass_styles_loader = function (content) {
+    <li>description and source-code<pre class="apidocCodePre">index_loader = function () {}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.bootstrap-sass-webpack.index_loader.pitch" id="apidoc.element.bootstrap-sass-webpack.index_loader.pitch">
+        function <span class="apidocSignatureSpan">bootstrap-sass-webpack.index_loader.</span>pitch
+        <span class="apidocSignatureSpan">(remainingRequest)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">pitch = function (remainingRequest) {
   this.cacheable(true);
-  var config = this.exec(content, this.resourcePath);
-  var start =
-      &#x22;@import          \&#x22;~bootstrap-sass/assets/stylesheets/bootstrap/variables\&#x22;;\n&#x22;
-    + &#x22;@icon-font-path: \&#x22;~bootstrap-sass/assets/fonts/bootstrap/\&#x22;;\n&#x22;
-    + &#x22;@import          \&#x22;./bootstrap-sass.config.scss\&#x22;;\n&#x22;;
-  source = start + partials.filter(function (partial) {
-    return config.styles[partial];
-  }).map(function (partial) {
-    return &#x22;@import \&#x22;~bootstrap-sass/assets/stylesheets/bootstrap/&#x22; + partial;
-  }).join(&#x22;\n&#x22;);
-  return source;
+  return [
+    &#x27;require(&#x27; + JSON.stringify(&#x22;-!&#x22; + require.resolve(&#x22;style-loader&#x22;) + &#x27;!&#x27; + require.resolve(&#x22;css-loader&#x22;) +
+      &#x27;!&#x27; + require.resolve(&#x22;sass-loader&#x22;) + &#x27;!&#x27; + require.resolve(&#x22;./bootstrap-sass-styles.loader.js&#x22;) + &#x27;!&#x27; + remainingRequest
+) + &#x27;);&#x27;,
+    &#x27;require(&#x27; + JSON.stringify(&#x22;-!&#x22; + require.resolve(&#x22;./bootstrap-sass-scripts.loader.js&#x22;) + &#x22;!&#x22; + remainingRequest) + &#x27;);&#x27;
+  ].join(&#x22;\n&#x22;);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
