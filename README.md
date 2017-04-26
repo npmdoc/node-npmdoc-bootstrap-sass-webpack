@@ -1,6 +1,6 @@
 # npmdoc-bootstrap-sass-webpack
 
-#### api documentation for  [bootstrap-sass-webpack (v0.0.3)](https://github.com/DylanLukes/bootstrap-sass-webpack)  [![npm package](https://img.shields.io/npm/v/npmdoc-bootstrap-sass-webpack.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-bootstrap-sass-webpack) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-bootstrap-sass-webpack.svg)](https://travis-ci.org/npmdoc/node-npmdoc-bootstrap-sass-webpack)
+#### basic api documentation for  [bootstrap-sass-webpack (v0.0.3)](https://github.com/DylanLukes/bootstrap-sass-webpack)  [![npm package](https://img.shields.io/npm/v/npmdoc-bootstrap-sass-webpack.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-bootstrap-sass-webpack) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-bootstrap-sass-webpack.svg)](https://travis-ci.org/npmdoc/node-npmdoc-bootstrap-sass-webpack)
 
 #### bootstrap-sass (v3.2) package for webpack
 
@@ -60,7 +60,8 @@
         "type": "git",
         "url": "git+https://github.com/DylanLukes/bootstrap-sass-webpack.git"
     },
-    "version": "0.0.3"
+    "version": "0.0.3",
+    "bin": {}
 }
 ```
 
